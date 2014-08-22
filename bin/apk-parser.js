@@ -12,7 +12,7 @@
 
   if (args.length === 0) {
     scriptname = __filename.replace("" + __dirname + "/", '');
-    scriptname = scriptname.split('-')[0];
+    scriptname = scriptname.split('.')[0];
     console.log("" + scriptname + " filename");
     process.exit(1);
   }
