@@ -1,0 +1,32 @@
+{
+  "name": "node-apk-parser-cli",
+  "version": "0.0.1",
+  "description": "cli version of apk parser",
+  "main": "lib/apk-parser",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:waynezhang/node-apk-parser-cli.git"
+  },
+  "keywords": [
+    "apk",
+    "parser"
+  ],
+  "author": "Linghua Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waynezhang/node-apk-parser-cli/issues"
+  },
+  "homepage": "https://github.com/waynezhang/node-apk-parser-cli",
+  "preferGlobal": "true",
+  "bin": {
+    "apk-parser": "bin/apk-parser.js"
+  },
+  "dependencies": {
+    "apk-parser": "^0.1.0",
+    "coffee-script": "^1.7.1",
+    "prettyjson": "^1.0.0"
+  }
+}
