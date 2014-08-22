@@ -1,6 +1,6 @@
 {
   "name": "node-apk-parser-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli version of apk parser",
   "main": "lib/apk-parser",
   "scripts": {
